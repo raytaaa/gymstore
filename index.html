@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">GymStore</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li> <!-- NEW: link to FAQ page -->
+            <li><a href="returns.html">Returns Policy</a></li> <!-- NEW: link to Returns Policy page -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Welcome to GymStore</h1>
+        <p>Your one-stop shop for high-quality gym equipment!</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <!-- Product 1: Barbell -->
+            <div class="product-card">
+                <img src="images/barbell.jpg" alt="Barbell" class="product-image">
+                <h3>Olympic Barbell</h3>
+                <p>Durable, high-quality Olympic barbell for weightlifting.</p>
+                <p>Price: $159.99</p>
+                <button class="add-to-cart" data-name="Olympic Barbell" data-price="159.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 2: Dumbbells -->
+            <div class="product-card">
+                <img src="images/db-set.jpg" alt="Adjustable Dumbbells" class="product-image">
+                <h3>Adjustable Dumbbells</h3>
+                <p>Perfect for home or gym use, with adjustable weights for all levels.</p>
+                <p>Price: $119.99</p>
+                <button class="add-to-cart" data-name="Adjustable Dumbbells" data-price="119.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 3: Bench -->
+            <div class="product-card">
+                <img src="images/bench.jpg" alt="Flat Workout Bench" class="product-image">
+                <h3>Flat Workout Bench</h3>
+                <p>Sturdy, adjustable bench for bench press, squats, and more.</p>
+                <p>Price: $89.99</p>
+                <button class="add-to-cart" data-name="Flat Workout Bench" data-price="89.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 4: Kettlebells -->
+            <div class="product-card">
+                <img src="images/kettlebell.jpg" alt="Cast Iron Kettlebells" class="product-image">
+                <h3>Cast Iron Kettlebells</h3>
+                <p>High-quality kettlebells for strength training and conditioning.</p>
+                <p>Price: $45.99</p>
+                <button class="add-to-cart" data-name="Cast Iron Kettlebells" data-price="45.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 5: Resistance Bands -->
+            <div class="product-card">
+                <img src="images/bands.jpg" alt="Resistance Bands Set" class="product-image">
+                <h3>Resistance Bands Set</h3>
+                <p>A complete set of resistance bands for toning and strength training.</p>
+                <p>Price: $24.99</p>
+                <button class="add-to-cart" data-name="Resistance Bands Set" data-price="24.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 6: Pull-Up Bar -->
+            <div class="product-card">
+                <img src="images/bar.jpg" alt="Doorway Pull-Up Bar" class="product-image">
+                <h3>Doorway Pull-Up Bar</h3>
+                <p>Perfect for home workouts, easy to install and remove.</p>
+                <p>Price: $39.99</p>
+                <button class="add-to-cart" data-name="Doorway Pull-Up Bar" data-price="39.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 7: Gym Mat -->
+            <div class="product-card">
+                <img src="images/EMAT.jpg" alt="Exercise Mat" class="product-image">
+                <h3>Exercise Mat</h3>
+                <p>Non-slip, cushioned mat for comfort during floor exercises.</p>
+                <p>Price: $29.99</p>
+                <button class="add-to-cart" data-name="Exercise Mat" data-price="29.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 8: Treadmill -->
+            <div class="product-card">
+                <img src="images/tm.jpg" alt="Electric Treadmill" class="product-image">
+                <h3>Electric Treadmill</h3>
+                <p>Perfect for cardio, with adjustable speed and incline settings.</p>
+                <p>Price: $499.99</p>
+                <button class="add-to-cart" data-name="Electric Treadmill" data-price="499.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 9: Medicine Ball -->
+            <div class="product-card">
+                <img src="images/ball.jpg" alt="Medicine Ball" class="product-image">
+                <h3>Medicine Ball</h3>
+                <p>Durable medicine ball for core strengthening and stability exercises.</p>
+                <p>Price: $24.99</p>
+                <button class="add-to-cart" data-name="Medicine Ball" data-price="24.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 10: Gym Gloves -->
+            <div class="product-card">
+                <img src="images/gloves.jpg" alt="Workout Gloves" class="product-image">
+                <h3>Workout Gloves</h3>
+                <p>Comfortable and durable gloves for lifting and gym workouts.</p>
+                <p>Price: $14.99</p>
+                <button class="add-to-cart" data-name="Workout Gloves" data-price="14.99">Add to Cart</button>
+
+            </div>
+
+            <!-- Product 11: Olympic Plates -->
+            <div class="product-card">
+                <img src="images/plates.jpg" alt="Olympic Plates" class="product-image">
+                <h3>Olympic Plates</h3>
+                <p>High-quality, durable Olympic weight plates for strength training.</p>
+                <p>Price: $79.99</p>
+                <button class="add-to-cart" data-name="Olympic Plates" data-price="79.99">Add to Cart</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul> <!-- This will list the cart items -->
+        <p id="cart-total">Total: $0.00</p> <!-- This will show the total -->
+    </section>
+    <script>
+      
+
+        // This will store the cart items
+        const cart = [];
+    
+        const cartCount = document.getElementById('cart-count');
+        const cartItems = document.getElementById('cart-items');
+        const cartTotal = document.getElementById('cart-total');
+    
+        // Find all Add to Cart buttons
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', () => {
+                const name = button.getAttribute('data-name');
+                const price = parseFloat(button.getAttribute('data-price'));
+    
+                // Add item to cart array
+                cart.push({ name, price });
+                updateCart(); // Refresh the cart view
+            });
+        });
+    
+        // Update the cart view
+        function updateCart() {
+            cartCount.textContent = cart.length;
+            cartItems.innerHTML = '';
+    
+            let total = 0;
+            cart.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                cartItems.appendChild(li);
+                total += item.price;
+            });
+    
+            cartTotal.textContent = `Total: $${total.toFixed(2)}`;
+        }
+    </script>
+    
+</body>
+</html>
